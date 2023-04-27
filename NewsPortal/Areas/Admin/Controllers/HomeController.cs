@@ -7,8 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace NewsPortal.Areas.Admin.Controllers
 {
-    [Authorize(Roles = "Admin")]
-    [Area("Admin")]
+    [Authorize(Roles = "admin")]
+    [Area("admin")]
     public class HomeController : Controller
     {
         public IActionResult Index()
